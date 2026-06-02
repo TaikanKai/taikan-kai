@@ -272,6 +272,31 @@ p { color: var(--muted); margin-top: 0; }
   height: 100px;
 }
 
+```css
+.mention-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.mention-card {
+  background: #1a1a1a;
+  border: 1px solid rgba(219, 159, 0, 0.35);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.mention-card h3 {
+  color: #db9f00;
+  margin-bottom: 0.5rem;
+}
+
+.mention-card p {
+  margin: 0;
+}
+```
+
+
 .cta-section {
   padding: 88px 0;
   background:
